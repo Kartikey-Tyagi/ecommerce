@@ -21,9 +21,8 @@ const Cart = () => {
       <div className="cart_container">
         {state.map(product => {
           return <div key={product.id} className="cart_item_container">
-            <img src={product.image} width={50} height={50} />
+            <img src={product.image} width={50} height={50} alt={product.title} />
             <div className="cart_item_details">
-
               <h4>{product.title}</h4>
               <div className="item_quantity">
                 <div className="flexbox">

@@ -37,7 +37,7 @@ const Home = () => {
           return <div key={product.id} className="product_container">
             <Link className='productDetails_link' to={`/product/${product.id}`} state={product} >
               <div className="product_img">
-                <img src={product.image} width={100} height={100} />
+                <img src={product.image} width={100} height={100} alt={product.title} />
               </div>
               <div className="product_overview">
                 <p>Rating: {product.rating.rate}/5</p>
