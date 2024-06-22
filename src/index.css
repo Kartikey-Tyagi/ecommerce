@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -16,46 +16,127 @@ code {
   box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .navbar {
@@ -118,18 +199,21 @@ table {
   margin-bottom: 10px;
 }
 
-.product_overview p, h3, h4 {
+.product_overview p,
+h3,
+h4 {
   margin: 10px 0;
 }
 
-.add_to_cart{
+.add_to_cart {
   position: absolute;
   bottom: 3%;
   right: 5%;
-  background-color: #31363F;
+  background-color: #31363f;
   color: #fff;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   padding: 5px 10px;
 }
 
@@ -156,19 +240,24 @@ table {
 .product_details p {
   margin: 10px 0;
 }
+.productImgContainer img {
+  width: 300px;
+  height: 300px;
+}
 
-.product_desc{
-  margin: 30px 0
+.product_desc {
+  margin: 30px 0;
 }
 
 .addToCartDetails {
   background-color: #fff;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   padding: 10px 20px;
   width: 100%;
   margin-top: 30px;
-  background-color: #31363F;
+  background-color: #31363f;
   color: #fff;
 }
 
@@ -184,7 +273,7 @@ table {
   margin: auto;
 }
 
-.cart_item_container{
+.cart_item_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -192,14 +281,14 @@ table {
   min-height: 80px;
   width: 100%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin: 10px 0
+  margin: 10px 0;
 }
 
-.cart_item_container img{
+.cart_item_container img {
   margin-right: 20px;
 }
 
-.cart_item_details{
+.cart_item_details {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -215,23 +304,23 @@ table {
   justify-content: space-between;
 }
 
-.qty_manage_btns{
+.qty_manage_btns {
   font-size: 1.5rem;
 }
 
-.qty_manage_btns:hover{
+.qty_manage_btns:hover {
   cursor: pointer;
 }
 
-.remove{
+.remove {
   margin-right: 3px;
 }
 
-.add{
+.add {
   margin-left: 3px;
 }
 
-.horizontal_line_break{
+.horizontal_line_break {
   width: 80%;
   height: 2px;
   background-color: #d9d9d9;
@@ -245,15 +334,25 @@ table {
   margin: auto;
 }
 
-.total_cart_amount p{
+.total_cart_amount p {
   font-weight: 500;
   margin-right: 20px;
 }
-.total_cart_amount span{
+.total_cart_amount span {
   font-weight: 500;
 }
 
-.flexbox{
+.flexbox {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  .productImgContainer img {
+    width: 150px;
+    height: 150px;
+  }
+  .productDetailsTitle {
+    font-size: 1.3rem;
+  }
 }

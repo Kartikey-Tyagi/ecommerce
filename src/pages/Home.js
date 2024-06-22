@@ -48,7 +48,7 @@ const Home = () => {
                 <button className='add_to_cart' onClick={() => addToCart(product)}>Add to cart</button>
           </div>
         })}
-        <ToastContainer position='top-right' autoClose={1000} />
+        <ToastContainer position='top-right' autoClose={500} />
         <Outlet />
       </div>
     </>
